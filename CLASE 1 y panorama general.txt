@@ -293,6 +293,9 @@ descargar github
 https://desktop.github.com/
 git clone
 https://github.com/jocampo01/ClaseLupis.git
+
+descargues
+https://notepad-plus-plus.org/downloads/
 ----------------
 .net framework 4.0 es como su compilador vision studio
 
