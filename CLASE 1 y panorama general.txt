@@ -1,0 +1,378 @@
+Java lenguage de programacion
+JDK=JAVA DEVELOPMENT KIT
+Java JDK 1.6 antes del 2015
+Java 1.7=2017
+java 1.8 2019
+java 1.9 2020
+java 1.11 2021
+java 12 2022
+
+programacion orientaja a objetos
+que es un objeto?
+
+carro
+atributos
+llantas
+color
+marca
+asientos
+estandar
+automatico
+
+lapiz
+medida
+tipo dibujo tinta carbon
+
+que es una clase?
+
+tipo de acceso JAVA
+public=publica
+private=privada
+protected
+
+public class Carro{
+
+}
+
+public class Ferrari{
+Carro carro=New Carro();
+}
+
+==========================
+private class Carro{
+
+
+protected class Carro{
+
+}
+
+protected class Carro{
+
+}
+
+public class Carro{
+
+}
+
+
+}
+
+=====================
+
+protected class Carro{
+
+}
+
+que es una instancia?
+
+Carro carro=New CarroFerrari(); estoy creando una instancia de una clase
+
+Palabras reservadas-TAREA-GOOGLE
+tipos de operadores en java
+or |
+= igual
+== igual igual
+!=diferente de
+ejemplo:
+if(llantas!=4){
+
+}
+or not=tipo negacion
+- menos
++ suma
+* multipicacion
+/ division
+
+public
+private
+protected
+for
+if
+while
+do while
+switch
+
+Mejoras practicas en java
+1.-Todo en java debe de respetar el Camel Case
+La primera palabra a la hora de llamar una clase va en mayuscula,y posterior en minuscula
+2.-toda instruccion en java termina con; punto y coma
+3.-NO USAR CODIGO ESPAGUTI
+4.-Justificar/formatear el codigo
+
+Atributos
+llantas
+color
+marca
+asientos
+estandar
+automatico
+
+Un problema entiendolo muy bien,ya tienes el 50% ganado
+
+
+Ejemplo:
+Crear una calculadora
+
+
+
+variable=que es una variable? van en miniscula y la segunda en mayuscula
+Me sirve para que pueda almacenar un tipo de dato
+llantas=4;
+constantes=que es una constante?
+se declara en mayuscula const CARRO="FERRARI";
+
+tipos de datos
+Declarar el tipo de dato
+int=Entero
+double=decimales 0.0d
+Integer=tipos de datos encasulados
+float=Decimales flotantes 0.0f
+string=tipo de dato que es una cadena "lupis","carro","municipio"
+char=caracter comillas simples 'l','u','p','i','s';
+
+
+
+herencia
+poliformismo
+sentencias
+for=Iterar una lista,recorrer una lista de alumnos
+
+Todo en java son posiciones
+toda posicion inicia con cero =0
+
+ArrayList tiposCarros=new ArrayList();
+tiposCarros.add("ferrari");=0
+tiposCarros.add("Lamborghini");=1
+tiposCarros.add("bocho");=2
+tiposCarros.add("nombre");=3
+tiposCarros.add(10);=4
+tiposCarros.add(10.23);=5
+
+for(int x=0;x=tiposCarros;x++){
+print(x)
+}
+
+if=si tal cosa es verdadera
+if(carro==4){ =si entonces
+"si es un carro"
+}else{
+"no es un carro"
+}
+while=mientras tanto
+while(carro=4){
+"es un carro"
+}
+do= hacer mientras
+
+while(carro=4)
+switch=escoger una opcion
+switch(carro):
+tipoCarro 1:"ferrari";
+codigo de instruccion
+tipoCarro 2:"Lamborghini";
+codigo de instruccion
+tipoCarro 3:"bocho";
+codigo de instruccion
+
+
+List=contiene diferentes objeto 
+"ferrari";
+"Lamborghini";
+"bocho";
+ArrayList tiposCarros=new ArrayList();
+tiposCarros.add("ferrari");
+tiposCarros.add("Lamborghini");
+tiposCarros.add("bocho");
+tiposCarros.add("nombre");
+tiposCarros.add(10);
+tiposCarros.add(10.23);
+
+tipo de setencia
+foreach(carro:tiposCarros){
+print(carro)
+}
+
+lambas=lamda tiposCarros foreach(carro:tiposCarros){}
+java 11
+
+Ejemplo:
+Crear una calculadora
+suma
+resta
+division
+multiplicacion
+potencia
+
+tipos de metodos
+public
+private
+========================
+
+public class Calculadora{
+//comentario
+/*
+Documentacion de java de tu pograma
+aqui va un comentario
+*/
+//por lo regular crear siempre un constructor,en los cuales puedes declarar o inicialiar las viriables
+
+int num1;
+int num2;
+public Calculadora(){
+num1=0;
+num2=0;
+}
+
+double resultado=0.0D;
+
+   public int suma(int num1,int num2){
+//operacion a realizar
+    resultado=num1+num2;
+   }
+   
+      public double suma(double num1,double num2){
+//operacion a realizar
+    resultado=num1+num2;
+   }
+   public int resta(int num1,int num2){
+//operacion a realizar
+    resultado=num1-num2;
+   }
+   public int division(int num1,int num2){
+//operacion a realizar
+    resultado=num1/num2;
+}
+public int multiplicacion(int num1,int num2){
+//operacion a realizar
+resultado=num1*num2;
+}
+
+public double potencia(int num1,int num2){
+//operacion a realizar
+resultado=num1*num2;
+}
+
+}
+
+Crear una clas principal donde mandes a llamar la clase Calculadora
+
+public class Main{
+Calculadora calculadora=new Calculadora();
+
+}
+
+----------------------------------
+constructor=pase de parametros
+Tipos de metodos=alternativa que se llama sobrecarga de metodos
+la sobrecarga de metodos son cando un mismo metodo lo puedes igual pero con diferente parametros
+
+
+
+herramientas-TAREA
+java usa un compilador de la maquina virtual de java JRE=JAVA RUNTIME ENVIROMENT
+jgrasp
+jcreator
+===Entornos de programacion===
+Descargar ECLIPSE oxygent
+Descargar netbeans
+Descargar la version del JDK 
+Java JDK 1.6 antes del 2015
+Java 1.7=2017
+java 1.8 2019
+java 1.9 2020
+java 11 2021
+java 12 2022
+
+JAVA lo compro oracle
+dESCARGAR JDK  1.6
+
+descargues XAMPP es como una utilidad que te trae apache,mysql y php
+https://www.apachefriends.org/es/download.html
+
+descargar github
+https://desktop.github.com/
+git clone
+https://github.com/jocampo01/ClaseLupis.git
+----------------
+.net framework 4.0 es como su compilador vision studio
+
+
+
+
+framework
+spring=Numero 1 por excelencia
+structs
+java server faces
+hibernate
+
+
+
+repositorios
+github=repositorio publico
+https://github.com/jocampo01/
+gitlab= este es lo mismo que github pero de empresa grupo salinas
+
+constructor de paquetes en java
+maven=es muy comun
+que es maven= es un constructor de paquetes o proyectos que usa un respositorio que se encuentra en internet y tambien
+usa dependencias
+pagina para construir proyectos
+https://start.spring.io/
+
+graddle
+
+-----------
+kotlin es un lenguaje parecido a java pero es enfocado a la programacion en mobiles como android(tiene su enterno de programacion que se llama android studio
+
+----------------------------------
+Segundo entregable
+el segundo paso a realizar es crear un proyecto estructurado con paquetes
+siempre al crear un paquete se crea dominio a la inversa
+mx.com.bancoazteca
+crear un paquete que se llama constantes
+crear un paquete que se llama controller
+crear un paquete que se llama servicios
+crear un paquete que se llama utilerias
+
+hacer un entregable de la replica del proyecto que te voy a pasar
+
+tercer entregable ya ess conectar a a base de datos MYSQL y guardar informacion en java
+
+
+-----------
+te voy a enseñar a programar en python=numero 1
+
+pagina donde publicar un cv
+OCCmundial 
+https://www.occ.com.mx/
+
+se clasifican dos tipos de desarrolladores que
+es java front end=que solo ve la parte visible la vista
+java backend= es la parte de los servicios que se conectan a la base de datos
+
+
+=========
+para todo proyecto primero hay que ambientar
+que es ambientar?
+instalar todas las herramientas necesarias
+
+===============
+en java existen las interfaces
+public interfaz Carro{
+
+public suma(int num1,int num2);
+}
+
+-------
+implementacion de la interfaz va en la capa de servicios
+
+public Carro1 implements Carro{
+
+public double potencia(int num1,int num2){
+//operacion a realizar
+resultado=num1*num2;
+}
+
+}
+
+https://github.com/jocampo01/ClaseLupis
